@@ -1,0 +1,171 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+  --accent-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --color-text: #434455;
+  --hover-btn: #404bbf;
+  --cloud-color: #f4f4fd;
+  --white-color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+* {
+  font-family: var(--main-font);
+  color: var(--color-text);
+}
+
+body {
+  background: var(--white-color);
+}
+.section-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.title-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.logo-white {
+  font-family: var(--second-font);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+}
+.logo-span {
+  color: var(--accent-color);
+}
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.menu-link {
+  color: var(--accent-color);
+}
+.contact-info-add {
+  font-style: normal;
+  color: var(--color-text);
+}
+.contact-info-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.title {
+  background: var(--accent-color);
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-family: var(--second-font);
+  color: #ffffff;
+  text-align: center;
+}
+
+.modal-open-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: var(--logo-color);
+}
+
+.section-cards {
+  background: var(--cloud-color);
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.card {
+  background: var(--white-color);
+}
+
+.page-footer {
+  background: var(--accent-color);
+}
+
+.logo-dark {
+  font-family: var(--second-font);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+
+.text-footer {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud-color);
+}
+
+button:hover,
+button:focus {
+  background: var(--hover-btn);
+  color: var(--white-color);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--hover-btn);
+}
+
+.portfolio-btn {
+  color: var(--logo-color);
+  background-color: var(--cloud-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.logo-span-footer {
+  color: var(--cloud-color);
+}
