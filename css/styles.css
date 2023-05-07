@@ -342,8 +342,8 @@ button:focus {
   border-radius: 4px;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus{
+.btn:hover,
+.btn:focus{
   border: 1px solid transparen;
 }
 
