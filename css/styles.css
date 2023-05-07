@@ -56,13 +56,14 @@ ol {
   list-style: none;
 }
 
-* {
-  font-family: var(--main-font);
+*{
   color: var(--color-text);
 }
 
 body {
   background: var(--white-color);
+  font-family: var(--main-font);
+  color: var(--color-text);
 }
 
 .visually-hidden {
@@ -109,6 +110,7 @@ body {
 .contact-info{
   display: flex;
   column-gap: 40px;
+  
 }
 
 .contact-info-add {
@@ -122,6 +124,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 }
 
 .logo-white {
@@ -262,7 +265,7 @@ body {
 .card {
   background: var(--white-color);
   column-gap: 24px;
-  text-align: center;
+  
 }
 
 /* ===================/SECTION====================== */
@@ -319,7 +322,11 @@ button:focus {
   letter-spacing: 0.04em;
   border: none;
   padding: 12px 24px;
-  
+  text-align: center;
+}
+
+.btn{
+   width: 586px;
 }
 
 .logo-span-footer {
@@ -333,9 +340,12 @@ button:focus {
   row-gap: 48px;
 }
 
-.btn{
- 
+.text-cards{
+  border: 1px solid #E7E9FC;
+  border-top: none;
 }
 
-
+.cards-our-team{
+  border-radius: 0px 0px 4px 4px;
+}
 
