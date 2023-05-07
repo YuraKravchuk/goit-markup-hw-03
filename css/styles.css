@@ -92,7 +92,7 @@ body {
   height: 72px;
   margin-left: auto;
   margin-right: auto;
-  
+  border-bottom: 1px solid #e7e9fc
 }
 
 .page-navigation{
@@ -103,8 +103,9 @@ body {
 
 .menu-list{
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contact-info{
@@ -136,6 +137,19 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   padding-top: 25.5px;
+  margin-right: 76px
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  gap: 40px;
+}
+.menu-link {
+  color: var(--accent-color);
 }
 /* =========/HEADER================= */
 
@@ -147,6 +161,7 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -173,6 +188,8 @@ body {
   background: var(--logo-color);
   padding: 16px 32px;
   min-width: 169px;
+  height: 56px;
+  border: none;
   border-radius: 4px;
   text-align: center;
   margin-left: auto;
@@ -190,7 +207,7 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .main-first-section{
@@ -223,9 +240,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--accent-color);
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
+  
 }
 
 .section-title {
@@ -236,23 +254,14 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: var(--accent-color);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 
 .logo-span {
   color: var(--accent-color);
 }
-.menu-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-}
-.menu-link {
-  color: var(--accent-color);
-}
+
 
 .section-cards {
   background: var(--cloud-color);
@@ -265,8 +274,10 @@ body {
 .card {
   background: var(--white-color);
   column-gap: 24px;
-  
+  width: calc((100% - 48px) / 3); 
 }
+
+
 
 /* ===================/SECTION====================== */
 
@@ -274,8 +285,7 @@ body {
   background: var(--accent-color);
   width: 1440px;
   height: 312px;
-  padding-top: 100px;
-  padding-left: 156px;
+  padding: 100px 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -288,6 +298,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--logo-color);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .text-footer {
@@ -306,6 +318,7 @@ button:hover,
 button:focus {
   background: var(--hover-btn);
   color: var(--white-color);
+  border: 1px solid transparen
 }
 
 .link:hover,
@@ -323,10 +336,14 @@ button:focus {
   border: none;
   padding: 12px 24px;
   text-align: center;
+  border-radius: 4px;
 }
 
 .btn{
-   width: 586px;
+  width: 586px;
+  justify-content: center;
+  border: 1px solid #e7e9fc
+  
 }
 
 .logo-span-footer {
@@ -343,9 +360,19 @@ button:focus {
 .text-cards{
   border: 1px solid #E7E9FC;
   border-top: none;
+  padding: 32px 16px; 
 }
 
 .cards-our-team{
+  
+  padding: 32px 16px;
+}
+
+.img-card{
   border-radius: 0px 0px 4px 4px;
+}
+
+.portfolio-section{
+  padding: 96px 0 120px;
 }
 
