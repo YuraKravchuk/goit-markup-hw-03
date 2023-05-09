@@ -85,19 +85,15 @@ body {
 
 .page-header .container{
   display: flex;
+  align-items: center;
 }
 
 .page-header{
-  width: 1440px;
-  height: 72px;
-  margin-left: auto;
-  margin-right: auto;
   border-bottom: 1px solid #e7e9fc
 }
 
 .page-navigation{
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 
@@ -118,7 +114,7 @@ body {
   font-style: normal;
   color: var(--color-text);
   margin-left: auto;
-  padding-top: 24px;
+  
 }
 .contact-info-item {
   font-weight: 400;
@@ -159,10 +155,6 @@ body {
 
 .title {
   background: var(--accent-color);
-  width: 1440px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 188px 0;
 }
 
@@ -174,8 +166,6 @@ body {
   font-family: var(--main-font);
   color: #ffffff;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 48px;
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
@@ -207,8 +197,6 @@ body {
 
 .main-list{
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
   gap: 24px;
 }
 
@@ -218,7 +206,7 @@ body {
 }
 
 .section-img{
-  padding-bottom: 120px;
+  padding-top: 0px;
 }
 
 .section-text {
@@ -241,11 +229,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-  padding-top: 32px;
   margin-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
-  
+ 
 }
 
 .section-title {
@@ -286,11 +271,8 @@ body {
 
 .page-footer {
   background: var(--accent-color);
-  width: 1440px;
-  height: 312px;
   padding: 100px 0;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
 .logo-dark {
@@ -313,8 +295,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--cloud-color);
   width: 264px;
-  height: 72px;
-  padding-top: 16px;
 }
 
 button:hover,
@@ -348,7 +328,6 @@ button:focus {
 }
 
 .btn{
-  width: 586px;
   justify-content: center;
   margin-bottom: 72px;
   }
@@ -360,7 +339,6 @@ button:focus {
 .galerea{
   display: flex;
   flex-wrap: wrap;
-  padding-top: 72px;
   row-gap: 48px;
 }
 
